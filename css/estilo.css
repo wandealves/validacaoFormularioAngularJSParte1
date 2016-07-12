@@ -1,0 +1,63 @@
+#content
+{
+    position:relative;
+    left:37%;
+    top:29%;
+    width:450px;
+    height:300px;
+}
+#content #form
+{
+    position:absolute;
+    display:block;  
+}
+fieldset
+{
+    width:400px;
+    height:280px;
+}
+
+legend
+{
+    font-style:bold;
+    font-family: "Segoe UI";
+}
+#form label
+{
+    position:absolute;
+    left:19px;
+    margin-right:5px;
+}
+
+
+#form input.name
+{
+    position:absolute;
+    left:95px;
+    top:23px;
+    width:310px;
+}
+#form input.email
+{
+    position:absolute;
+    left:95px;
+    margin-top:2px;
+    width:310px;
+}
+
+#form textarea.msg
+{
+    position:absolute;
+    left:95px;
+    margin-top:2px;
+    width:310px;
+}
+
+#form input.btn_submit
+{
+    position:absolute;
+    left:95px;
+    margin-top:105px;
+    width:310px;
+    height:28px;
+}
